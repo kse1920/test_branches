@@ -27,4 +27,3 @@ test develop
 test develop
 develop
 test master
-test pr
