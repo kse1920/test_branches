@@ -23,7 +23,6 @@
         <param name="aws.use.default.credential.provider.chain" value="false" />
         <param name="secure:aws.secret.access.key" value="credentialsJSON:087ba199-e5e9-4bc8-a011-1d47370f2a07" />
         <param name="secure:storage.s3.cloudfront.privateKey" value="credentialsJSON:3fd6888d-e40e-48fd-b39a-4b60954ad0ca" />
-        <param name="storage.s3.acl" value="BucketOwnerFullControl" />
         <param name="storage.s3.bucket.name" value="kilina-bucket2-private" />
         <param name="storage.s3.bucket.name.wasProvidedAsString" value="true" />
         <param name="storage.s3.bucket.prefix" value="25apr-1" />
