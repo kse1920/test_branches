@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>CLoud front</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_1" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="CLoudFront_HttpsGithubComKilina0testBranchesRefsHeadsDevelop" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_139" type="storage_settings">
+      <parameters>
+        <param name="aws.access.key.id" value="AKIA5JH2VERVMSFJ2JGO" />
+        <param name="aws.credentials.type" value="aws.access.keys" />
+        <param name="aws.environment" value="" />
+        <param name="aws.external.id" value="TeamCity-server-4f64c2d1-6b9a-4937-bcce-c87bc8756d5d" />
+        <param name="aws.region.name" value="us-east-2" />
+        <param name="aws.service.endpoint" value="" />
+        <param name="aws.use.default.credential.provider.chain" value="false" />
+        <param name="secure:aws.secret.access.key" value="credentialsJSON:087ba199-e5e9-4bc8-a011-1d47370f2a07" />
+        <param name="secure:storage.s3.cloudfront.privateKey" value="credentialsJSON:3fd6888d-e40e-48fd-b39a-4b60954ad0ca" />
+        <param name="storage.s3.acl" value="BucketOwnerFullControl" />
+        <param name="storage.s3.bucket.name" value="kilina-bucket2-private" />
+        <param name="storage.s3.bucket.name.wasProvidedAsString" value="true" />
+        <param name="storage.s3.bucket.prefix" value="25apr-1" />
+        <param name="storage.s3.cloudfront.download.distribution" value="E41EEYSGLZNSV" />
+        <param name="storage.s3.cloudfront.enabled" value="true" />
+        <param name="storage.s3.cloudfront.publicKeyId" value="K26BUJLPKKPL16" />
+        <param name="storage.s3.cloudfront.upload.distribution" value="E41EEYSGLZNSV" />
+        <param name="storage.s3.upload.presignedUrl.enabled" value="true" />
+        <param name="storage.type" value="S3_storage" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_140" type="active_storage">
+      <parameters>
+        <param name="active.storage.feature.id" value="PROJECT_EXT_139" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
