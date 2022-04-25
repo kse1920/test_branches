@@ -36,7 +36,7 @@ project {
         s3Storage {
             id = "PROJECT_EXT_139"
             bucketName = "kilina-bucket2-private"
-            bucketPrefix = "25apr"
+            bucketPrefix = "25apr-1"
             cloudFrontEnabled = true
             cloudFrontUploadDistribution = "E41EEYSGLZNSV"
             cloudFrontDownloadDistribution = "E41EEYSGLZNSV"
@@ -78,6 +78,7 @@ object Build : BuildType({
             excludeUsers = """
                 ksenia
                 admin
+                user
             """.trimIndent()
             ignoreCompilationProblems = "true"
         }
