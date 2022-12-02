@@ -54,7 +54,7 @@ object Build : BuildType({
                     token = "credentialsJSON:1115db9a-8bdd-49bf-8292-662b58db5728"
                 }
                 filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
-                ignoreDrafts = false
+                ignoreDrafts = true
             }
         }
     }
